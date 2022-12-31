@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Auth0ProviderWithHistory } from "./components/Auth0-provider-with-history";
 import { BrowserRouter } from "react-router-dom";
-import Navbar from './pages/Navbar';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

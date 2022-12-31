@@ -1,13 +1,11 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import '../css/Home.css'
-import arrow from '../images/arrow.png'
+import Sus from "./sustinable"
+
 
 export default function Home() {
   const [message, setMessage] = useState('');
   const [updated, setUpdated] = useState(message);
-
-
-
 
   const handleChange = (event) => {
     if(event.target.value.length<5)
@@ -15,19 +13,15 @@ export default function Home() {
   };
 
   const handleClick = () => {
-    setUpdated(message);
-    // var lol=fetch_data(updated);
-    // console.log(lol);
-    
+    // let response=[]
+    // fetch("http:", {method: "POST", headers: {'Content-Type':'application/json'}, body:message}).then(response = )
+    setUpdated(message)
   };
   const handleKeyDown=(e)=>{
     if(e.key==='Enter'){
         handleClick()
     }
   }
-  
- 
-
   
 
   return (
@@ -41,11 +35,12 @@ export default function Home() {
         onChange={handleChange}
         value={message}
         onKeyDown={handleKeyDown}
-        autocomplete="off" 
+        autoComplete="off" 
       />
       
       <h2 id='test'>{message}</h2>
-        <h2 id='test'>{updated}</h2>
+      <h2 id='test'>{updated}</h2>
+      <div className="sussy"><Sus/></div>
     </div>
   );
 }

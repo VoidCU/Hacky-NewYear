@@ -2,6 +2,10 @@ import React from 'react'
 import '../css/aboutus.css'
 
 function Aboutus() {
+  // fetch('http://localhost:5000/sms', {  // Enter your IP address here
+  //     method: 'POST', 
+  //     body: "HI"// body data type must match "Content-Type" header
+  //   })
   return (
     <div className='main'>
       <h1>About Us</h1>
@@ -20,6 +24,12 @@ function Aboutus() {
         <p>Saroj Prasad Mainali</p>
       </div>
       </div>
+      <form action="http://localhost:5000/sms" method='post' enctype="multipart/form-data">
+      <div className='sendsmstoprasaya'>
+        <input id="msghere" name="msghere" type="text" />
+        <input id='sendme' type='submit' name='submit' value='send'/>
+      </div>
+      </form>
     </div>
   )
 }

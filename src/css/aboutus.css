@@ -14,7 +14,7 @@ h1{
     width: 15vw;
     background-color: rgba(255, 255, 255, 0.063);
     margin: 2vh;
-    border-radius: 25% 25% 25% 0;
+    border-radius:0 0 25% 25%;
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 10px 0 rgba(0, 0, 0, 0.5);
     text-align: center;
 }
@@ -29,4 +29,20 @@ p{
     font-size: 1.25vw;
     font-weight: bold;
     padding-bottom: 2vh;
+}
+
+.sendsmstoprasaya{
+    display: flex;
+    width: 50vw;
+    justify-content: left;
+    padding-left: 5vw;
+    margin: 1vh;
+}
+
+#msghere{
+    padding: 1vh;
+}
+
+#sendme{
+    padding: 1vh;
 }

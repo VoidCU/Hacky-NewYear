@@ -41,14 +41,15 @@ a:hover{
 }
 .nav-item{
   list-style: none;
-  padding: 1.2vh 1.7vw;
+  padding: 1.2vh 1vh;
   margin: 3.5vw;
   font-size: 1.5vw;
   font-weight: bold;
   cursor: pointer;
   transition: .1s;
-  background-color: white;
-  border-radius: 2vw;
+  /* background-color: white; */
+  color: black;
+  border-radius: 1vw;
   width: 8vw;
   text-align: center;
   box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -59,11 +60,12 @@ a:hover{
   transform: scale(1.5);
 }
 
-
-
-
 #userphoto{
   width: 4vw;
   padding: 2vw;
   border-radius: 50%;
 }
+
+
+
+
