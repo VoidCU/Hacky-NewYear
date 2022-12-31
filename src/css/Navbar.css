@@ -1,59 +1,69 @@
-.Navbar {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(246, 182, 97);
-  }
-  
-  .App-logo{
-    height: 5em;
-    margin: 10px 0;
-    /* display: flex; */
-    padding: 0 10% 0 10% ;
-    transition: transform .2s;
-  }
-  
-  .App-logo:hover{
-    transform: scale(1.2);
-  }
-  
-  
-  .nav{
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    width: 25%;
-    font-size: calc(10px + 2vmin);
-  }
+.Navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2.5vw;
+  align-items: center;
+  /* background-color: #e6f1fb; */
+}
 
-  .nav-item{
-    font-size: calc(10px + 2vmin);
-    font-weight: bold;
-    transition: transform .1s;
-    color: black;
-    background-color: white;
-    padding: .5rem;
-    border-radius: 15px;
-  }
+.App-logo-div{
+  height:25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left:6vw ;
+}
+.App-logo{
+  height: 15vh;
+  transition: .2s;
+}
 
-  .nav-item:hover{
-    transform: scale(1.5);
-    background-color: black;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .App-header {
-    /* min-height: 100vh; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(20px + 3vmin);
-    color: rgb(57, 43, 4);
-  }
-  
+.App-logo:hover{
+  transform: scale(1.5);
+}
 
- 
-  
+a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color: white;
+}
+.nav{
+  display: flex;
+  align-items: center;
+}
+.nav-item{
+  list-style: none;
+  padding: 1.2vh 1.7vw;
+  margin: 3.5vw;
+  font-size: 1.5vw;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .1s;
+  background-color: white;
+  border-radius: 2vw;
+  width: 8vw;
+  text-align: center;
+  box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-item:hover{
+  background-color: black;
+  color: white;
+  transform: scale(1.5);
+}
+
+
+
+
+#userphoto{
+  width: 4vw;
+  padding: 2vw;
+  border-radius: 50%;
+}
