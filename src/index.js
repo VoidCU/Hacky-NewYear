@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Auth0ProviderWithHistory } from "./Auth0-provider-with-history";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Auth0ProviderWithHistory> */}
+      <App/>
+    {/* </Auth0ProviderWithHistory> */}
   </React.StrictMode>
 );
 

@@ -1,0 +1,5 @@
+.content{
+    border: solid red 2px;
+    height: 80vh;
+    font-size: calc(10px + 2vmin);
+}
