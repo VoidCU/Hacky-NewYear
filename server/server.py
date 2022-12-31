@@ -1,19 +1,32 @@
+import scraping as s
+from dotenv import load_dotenv
 from flask import Flask, jsonify, request
 import os
 from twilio.rest import Client
 import datetime
-from dotenv import load_dotenv
-import scraping as s
+
+from flask_cors import CORS
+
+app = Flask(__name__)
+CORS(app)
+
+
 load_dotenv()
 
 x = datetime.datetime.now()
 
 # Initializing flask app
-app = Flask(__name__)
+# app = Flask(__name__)
 
 print("hello")
 
 # Route for seeing a data
+years = [x for x in range(1901, 2015)]
+years.remove(1916)
+years.remove(1939)
+years.remove(1940)
+years.remove(1941)
+years.remove(1942)
 
 
 @app.route('/data')
@@ -29,7 +42,12 @@ def get_time():
 
 @app.route('/year', methods=['POST'])
 def get_year_info():
-    year = request.data
+    print('hi')
+    # year = request.data
+    year = request.args['year']
+    if (year not in years):
+        return -1
+    print(year)
     ret = s.extraction(year)
     return jsonify(ret)
 

@@ -11,12 +11,12 @@ export const Auth0ProviderWithHistory = ({ children }) => {
 
   const onRedirectCallback = async (appState) => {
     try {
-        const result = await useAuth0.handleRedirectCallback();
+        const result = await useAuth0.handleRedirectCallback;
         console.log("Logged in!");
     } catch (err) {
         console.log("Error parsing redirect:", err);
     }
-    history.push(appState?.returnTo || window.location.pathname);
+    history(appState?.returnTo || window.location.pathname);
   };
 
   if (!(domain && clientId)) {

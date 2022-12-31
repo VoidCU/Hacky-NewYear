@@ -12,12 +12,11 @@ import { SignupButton } from "../components/buttons/signup-button";
 function Navbar() {
 
   const {isAuthenticated , user } = useAuth0();
-
   return (
     <div className='Navbar'>
         <div  className="App-logo-div" >
           <img src={logo} className='App-logo' alt="logo"/>
-          {/* <img src={user.picture}/> */}
+          
           </div>
         <nav className='nav'>
             <Link className="nav-item" to="/">Home</Link>
@@ -29,7 +28,7 @@ function Navbar() {
               </>
             ):
             <>
-              <img src={user.picture} alt="userimg" id='userphoto' />
+              <img src={user.picture} id='userphoto' alt='hero'/>
               <LogoutButton className='nav-item'/>
             </>
             }

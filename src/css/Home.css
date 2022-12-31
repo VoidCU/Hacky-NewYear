@@ -9,11 +9,11 @@
     /* background-color: rgb(58, 54, 54); */
 }
 .des{
-    color: black;
-    font-size: 2.5vh;
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
     padding-left: 2vw;
     padding-bottom: 2vh;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 #message{
@@ -24,7 +24,7 @@
     font-weight: bold;
     text-align: center;
     border: none;
-    background-color:white ;
+    background-color:rgb(255, 255, 255) ;
     transition: .2s;
     box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } 
@@ -41,7 +41,15 @@
 }
 
 #test{
-    color: white;
+    margin: 1vw 0;
+    padding: 10px 2vw;
+    background: rgba(40, 89, 163, 0.582);
+    width: 45vw;
+    color: rgb(2, 2, 2);
+    border-radius: 2vw;
+    text-align: center;
+    box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 
@@ -58,5 +66,10 @@ input[type=number] {
 }
 
 .sussy{
+    text-align: center;
     margin-top: 30vh;
+}
+
+#sust{
+    padding: 2vw;
 }

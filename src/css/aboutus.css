@@ -41,8 +41,15 @@ p{
 
 #msghere{
     padding: 1vh;
+    border-radius: 2vh;
 }
 
 #sendme{
+    margin: 1vh;
     padding: 1vh;
+    border-radius: 2vh;
+}
+hr{
+    width: 50vw;
+    margin-left: 4.95vw;
 }

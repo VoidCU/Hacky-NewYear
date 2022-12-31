@@ -4,6 +4,11 @@ import '../css/sustinable.css'
 function sustinable() {
   return (
     <div className="wrapper inner-wrapper-padding ">
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <div className="start-point">
             <div className="black-dot"></div>
                 <h4>Start</h4>
@@ -173,7 +178,7 @@ function sustinable() {
                    <p>
 Ice sheets in Antarctica and Greenland may have already passed the point of no return</p>
                </div>
-                    <img src="https://images.pexels.com/photos/4732675/pexels-photo-4732675.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=150" alt=""/>
+                    <img src="https://www.discover.ukri.org/a-brief-history-of-climate-change-discoveries/assets/GfYTfVbZGC/danielle-barnes-xffdpto7z3u-unsplash-1934x1281.webp" alt=""/>
                              </div>
              </div>
           </div>
@@ -182,9 +187,10 @@ Ice sheets in Antarctica and Greenland may have already passed the point of no r
                  <h6>2019</h6>
              <div className="timeline-content">
                   <div className="timeline-content-txt">
-                   <p>Nisl rhoncus montes<br/> Non diam tincidunt.<br/> A est adipiscing<br/> condimentum penatibus.
-</p>
+                   <p>Up to one million animal and plant species are now threatened with extinction, and many could die out within decades</p>
                </div>
+                    <img src="https://www.discover.ukri.org/a-brief-history-of-climate-change-discoveries/assets/UroShFHg41/tiger-photography-mark-mallett-2263x1509.webp" alt=""/>
+
                               </div>
              </div>
           </div>
@@ -193,9 +199,9 @@ Ice sheets in Antarctica and Greenland may have already passed the point of no r
                  <h6>2021</h6>
              <div className="timeline-content">
                   <div className="timeline-content-txt">
-                   <p>Lorem Ipsum <br/>is simply dummy text<br/> of the printing and.</p>
+                   <p>Scientists predict the world will reach 1.5C of warming by 2040, earlier than initial warnings. That level of warming will lead to more heatwaves, intense storms, droughts and floods</p>
                </div>
-                <img src="https://images.pexels.com/photos/3762927/pexels-photo-3762927.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=150" alt=""/>
+                <img src="https://www.discover.ukri.org/a-brief-history-of-climate-change-discoveries/assets/ReYZoh92UK/gettyimages-535939461-1747x1165.webp" alt=""/>
                              </div>
              </div>
           </div>
@@ -204,7 +210,7 @@ Ice sheets in Antarctica and Greenland may have already passed the point of no r
       <div className="corner top"></div>
       <div className="corner bottom"></div>	
                <div className="start-point end-point">
-        <h4>Continue</h4>
+        <h4>End</h4>
          </div>
               </div>
               </div>	
