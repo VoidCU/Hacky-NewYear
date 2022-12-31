@@ -40,8 +40,8 @@
   .nav-item:hover{
     transform: scale(1.5);
     background-color: black;
-    p
     color: white;
+    cursor: pointer;
   }
   
   .App-header {

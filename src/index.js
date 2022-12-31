@@ -1,16 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Auth0ProviderWithHistory } from "./Auth0-provider-with-history";
+import { Auth0ProviderWithHistory } from "./components/Auth0-provider-with-history";
+import { BrowserRouter } from "react-router-dom";
+import Navbar from './pages/Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Auth0ProviderWithHistory> */}
-      <App/>
-    {/* </Auth0ProviderWithHistory> */}
+    <BrowserRouter>
+      <Auth0ProviderWithHistory>
+        <App/>
+      </Auth0ProviderWithHistory>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
