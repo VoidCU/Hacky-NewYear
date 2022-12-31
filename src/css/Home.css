@@ -1,10 +1,10 @@
-.main{
+.mainhome{
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: top;
     padding-left: 5vw;
-    height:50vh;
+    height:55vh;
     margin-top:20vh ;
     /* background-color: rgb(58, 54, 54); */
 }
@@ -21,6 +21,7 @@
     height: 7.5vh;
     border-radius: 25px;
     font-size: 5vh;
+    font-weight: bold;
     text-align: center;
     border: none;
     background-color:white ;
@@ -41,4 +42,17 @@
 
 #test{
     color: white;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }

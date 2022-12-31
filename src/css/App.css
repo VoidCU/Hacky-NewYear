@@ -1,5 +1,6 @@
 .sab-ka-baap{
-  background-image: url('../images/high.png');
-  background-position: center;
+  height: 100vh;
+  background-image: url('../images/lol.png');
+  background-position: left bottom;
   background-size: 100vw;
 }

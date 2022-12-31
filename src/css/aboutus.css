@@ -1,0 +1,32 @@
+.main{
+    height:60vh;
+    margin-top:15vh ;
+    /* background-color: rgb(58, 54, 54); */
+}
+.members{
+    padding-left: 4vw;
+    display: flex;
+}
+h1{
+    padding-left: 5vw;
+}
+.member{
+    width: 15vw;
+    background-color: rgba(255, 255, 255, 0.063);
+    margin: 2vh;
+    border-radius: 25% 25% 25% 0;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.profilepic{
+    padding: 2vh;
+    border-radius: 50%;
+    width: 10vw;
+}
+
+p{
+    font-size: 1.25vw;
+    font-weight: bold;
+    padding-bottom: 2vh;
+}
