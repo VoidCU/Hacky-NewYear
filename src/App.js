@@ -4,10 +4,11 @@ import Home from "./pages/Home";
 import Aboutus  from './pages/Aboutus';
 import Nopage from './pages/nopage';
 import Navbar from './pages/Navbar';
+import './css/App.css'
 
 function App() {
   return (
-      <div>
+      <div className='sab-ka-baap'>
         <Navbar/>
         <Routes>
         <Route path="/" element={<Home/>}/>

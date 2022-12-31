@@ -10,26 +10,24 @@ import { LogoutButton } from "../components/buttons/logout-button";
 import { SignupButton } from "../components/buttons/signup-button";
 
 function Navbar() {
-  let {isAuthenticated}=useAuth0();
+  const {isAuthenticated , user } = useAuth0();
   return (
     <div className='Navbar'>
-        <img src={logo} className="App-logo" alt="logo"/>
-        <h1 className='App-header'>Year World</h1>
+        <div  className="App-logo-div" >
+          <img src={logo} className='App-logo' alt="logo"/>
+          </div>
         <nav className='nav'>
-            <li class="nav-item">
-              <Link to ="/">Home</Link>
-              </li>
-            <li class="nav-item">
-              <Link to ="/about">About us</Link>
-            </li>
+            <Link className="nav-item" to="/">Home</Link>
+            <Link className="nav-item" to="/about">About us</Link>
             {!isAuthenticated ?(
               <>
-              <LoginButton/>
-              <SignupButton/>
+              <LoginButton className='nav-item'/>
+              <SignupButton className='nav-item'/>
               </>
             ):
             <>
-                <LogoutButton/>
+              <img src={user.picture} alt="userimg" id='userphoto' />
+                <LogoutButton className='nav-item'/>
             </>
             }
             
