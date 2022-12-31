@@ -1,16 +1,23 @@
-import './App.css';
-import Navbar from './Navbar';
-import Content from './Content';
+import React from 'react'
+import { Routes,Route } from 'react-router-dom';
+import Home from "./pages/Home";
+import Aboutus  from './pages/Aboutus';
+import Nopage from './pages/nopage';
+import Navbar from './pages/Navbar';
 
-function App(){
+function App() {
   return (
-    <div >
-      <header className='App'>
+      <div>
         <Navbar/>
-        <Content/>
-      </header>
-    </div>
+        <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/home" element={<Home/>}/>
+        <Route path='/about' element={<Aboutus/>}/>
+        <Route path='/*' element={<Nopage/>}/>
+        </Routes>
+      </div>
+      
   );
 }
 
-export default App;
+export default App
