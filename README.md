@@ -24,8 +24,6 @@ To make the website more interactive, users could also signup to the website and
 
 Overall, this project would create a fun and educational resource for users to learn more about the world and its history.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With:
 
 <img alt="React" src="https://img.shields.io/badge/-React-61cafb?style=plastic&logo=react&logoColor=white" height="25" />
@@ -44,7 +42,6 @@ Overall, this project would create a fun and educational resource for users to l
 <br>
 <img alt="js" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=plastic&logo=javascript&logoColor=ffffff" height="25" />
 <br>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -89,14 +86,6 @@ Overall, this project would create a fun and educational resource for users to l
    TWILIO_AUTH_TOKEN=your-twilio-auth-token
    TWILIO_PHONE_NUMBER=your-twilio-phone-number
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
 
 <!-- LICENSE -->
 
