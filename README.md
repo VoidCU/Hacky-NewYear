@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<img src="./src/images/slaabur.png" alt="Logo" width="100" height="100" />
+<img src="https://raw.githubusercontent.com/VoidCU/Slaabur/main/src/images/sc1.JPG" alt="Logo"/>
 
 <br>
   <p align="center">
