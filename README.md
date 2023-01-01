@@ -94,12 +94,6 @@ Overall, this project would create a fun and educational resource for users to l
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
@@ -110,14 +104,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTACT -->
 
 ## Contact
 
-- [Prasaya Acharya](https://github.com/Prasaya)
-- [Sankalpa Rijal](https://github.com/rijalsankalp)
+- [Prasaya](https://github.com/Prasaya)
+- [rijalsankalp](https://github.com/rijalsankalp)
 - [Saroj Prasad Mainali](https://github.com/VoidCU)
 
 <br>
