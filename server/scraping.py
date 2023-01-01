@@ -1,10 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-import re
 
 
 def extraction(YEAR):
-    print("hello")
     URL = f"https://www.infoplease.com/year/{YEAR}"
 
     x = requests.get(URL)

@@ -42,11 +42,10 @@ def get_time():
 
 @app.route('/year', methods=['POST'])
 def get_year_info():
-    print('hi')
     # year = request.data
     year = request.args['year']
-    if (year not in years):
-        return -1
+    # if (year not in years):
+    #     return {"error": -1}
     print(year)
     ret = s.extraction(year)
     return jsonify(ret)
