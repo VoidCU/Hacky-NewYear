@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<img src="https://raw.githubusercontent.com/VoidCU/Slaabur/main/src/images/sc1.JPG" alt="Logo"/>
+<img src="https://raw.githubusercontent.com/VoidCU/Slaabur/main/src/images/slaabur.png" width="200" heigh="200" alt="Logo"/>
 
 <br>
   <p align="center">
@@ -14,7 +14,7 @@
 ## About The Project
 
 <div align='center'>
-<img src="./src/images/sc1.jpg"/>
+<img src="https://raw.githubusercontent.com/VoidCU/Slaabur/main/src/images/sc1.JPG"/>
 </div>
 Slaabur believes history matters to everyone and it must be shared and remebered.
 
