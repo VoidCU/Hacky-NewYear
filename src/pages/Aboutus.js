@@ -26,8 +26,10 @@ function Aboutus() {
       </div>
       <form action="http://localhost:5000/sms" method='post' enctype="multipart/form-data">
       <div className='sendsmstoprasaya'>
-        <input id="msghere" name="msghere" type="text" />
-        <input id='sendme' type='submit' name='submit' value='send'/>
+        <input id="msghere" name="msghere" type="text" rows="4" cols="50" placeholder="You guys are doing great! It was nice using your webite.
+        &#10;Wishes,
+        &#10;Ramesh" />
+        <input class="nav-item" id='sendme' type='submit' name='submit' value='send'/>
       </div>
       </form>
     </div>

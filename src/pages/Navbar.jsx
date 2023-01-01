@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from "react-router-dom";
 import { useAuth0 } from '@auth0/auth0-react';
 
-import logo from '../images/hacky-newyear.png';
+import logo from '../images/slaabur.png';
 import "../css/Navbar.css"
 
 import { LoginButton } from "../components/buttons/login-button";
@@ -28,7 +28,7 @@ function Navbar() {
               </>
             ):
             <>
-              <img src={user.picture} id='userphoto' alt='hero'/>
+              <Link className='userpo' to="/profile"><img src={user.picture} id='userphoto' alt='hero'/></Link>
               <LogoutButton className='nav-item'/>
             </>
             }

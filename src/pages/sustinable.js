@@ -6,9 +6,6 @@ function sustinable() {
     <div className="wrapper inner-wrapper-padding ">
         <br></br>
         <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
         <div className="start-point">
             <div className="black-dot"></div>
                 <h4>Start</h4>
