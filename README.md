@@ -111,9 +111,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [Prasaya](https://github.com/Prasaya)
 - [rijalsankalp](https://github.com/rijalsankalp)
 - [Saroj Prasad Mainali](https://github.com/VoidCU)
-
 <br>
-
 Project Link: [Slaabur](https://github.com/VoidCU/Slaabur)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
